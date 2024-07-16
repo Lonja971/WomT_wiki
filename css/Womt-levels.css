@@ -1,0 +1,60 @@
+.levels {
+}
+.levels__contaier {
+   padding: 50px 0px;
+   display: flex;
+   flex-direction: column;
+   gap: 60px;
+}
+.level6 {
+   margin: 0 auto;
+}
+.level8 {
+   margin: 0 auto;
+}
+.level10 {
+   margin: 0 auto;
+}
+
+.level__number {
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+.level__tabel {
+   margin: 0 auto;
+   width: 1200px;
+   display: grid;
+   grid-template-columns: 400px 400px 400px;
+   border: 1px solid black;
+   margin: 0px 30px;
+}
+.level__tabel-row {
+   padding: 10px 10px;
+   border: 1px solid black;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 5px;
+}
+.level__tabel-row p {
+   text-align: center;
+   font-size: 25px;
+   width: 100%;
+}
+.level__tabel-row a {
+   display: block;
+   margin: 0 auto;
+}
+
+.level__names {
+   display: grid;
+   margin: 0 auto;
+   width: 1200px;
+   grid-template-columns: 400px 400px 400px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.level__name-item {
+   margin: 0 auto;
+   font-size: 25px;
+}
